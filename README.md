@@ -6,3 +6,10 @@ Run down for this quiz is there are 5 questions in total worth one point each wi
 
 This quiz is tested and approved by coding professionals.
 
+![screencapture-file-C-Users-jpegg-code-quiz-project-4-index-html-2022-01-09-22_43_16](https://user-images.githubusercontent.com/95057279/148727505-4d0d3028-f8fd-4232-b67c-ab049f1ace16.png)
+
+![screencapture-file-C-Users-jpegg-code-quiz-project-4-index-html-2022-01-09-22_43_30](https://user-images.githubusercontent.com/95057279/148727513-9fa33b3f-f2d4-4989-a6a9-15416eea494a.png)
+
+![screencapture-file-C-Users-jpegg-code-quiz-project-4-index-html-2022-01-09-22_44_20](https://user-images.githubusercontent.com/95057279/148727517-f772f27f-935a-4009-b3ee-71d4b869f2dc.png)
+
+![screencapture-file-C-Users-jpegg-code-quiz-project-4-index-html-2022-01-09-22_44_27](https://user-images.githubusercontent.com/95057279/148727526-e49617d5-7ea9-460c-adc0-c8c71e48cc45.png)
