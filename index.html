@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Code Quiz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <script src="./questions.js"></script>
+  <script src="./script.js"></script>
+</head>
+
+<div id="scores">
+  <div id="info">
+    <button id="Scoreboard">Scoreboard</button>
+    <div id="timer"><p>Time: <span id="time"> 75</span></p></div>
+  </div>
+</div>
+  
+
+<div id="positionWrapper">
+  <section id="intro">
+    <h1>Coding Quiz Challenge</h1>
+    <p>Are you knowledgeable in coding? Well take this quiz and answer these questions! Be careful though. It's timed.
+       Incorrect answers will deduct your time by ten seconds.
+    </p>
+    <button>Start Quiz</button>
+
+  </section>
+
+  <section id="quiz" class="invisible">
+    <p id="title"></p>
+    <!-- Buttons for the questions-->
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <div id="scoreIndicator" class="invisible">
+      <p>&nbsp;</p>
+    </div>
+  </section>
+
+  <section id="finish" class="invisible">
+    <h1>Congrats!</h1>
+    <p>Your final score is:&nbsp;<span id="score"></span></p>
+    <div id="records">
+      <p>Please enter your initials: </p><input id="initials" type="text"> <button>Submit</button>
+    </div>
+    <div id="error" class="invisible">
+      <p>&nbsp;</p>
+    </div>
+  </section>
+
+  <section id="highScores" class="invisible">
+    <h1>High Scores</h1>
+    <div>
+
+    </div>
+    <button id="reset">Go Back</button> <button id="clearScores">Clear Highscores</button>
+  </section>
+</div>
+ 
+<body>
+    
+</body>
+</html>

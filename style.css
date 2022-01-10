@@ -1,0 +1,174 @@
+/* For the html in general */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+html,body{
+  font-family: 'Be Vietnam Pro', sans-serif;
+  height:100%;
+}
+
+/* For the high score section*/
+
+#highScores div div{
+  padding: 5px;
+  font-weight:600;
+}
+
+#highScores div div:nth-child(odd){
+  background-color: white;
+}
+
+#highScores button{
+  margin:5px 0;
+}
+
+/* Specfiic css for sections of the html */
+
+#positionWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100% - 110px)
+}
+
+section{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+/* It was a pain to find this color similar to the one in the example */
+
+#scores{
+  background-color: #41275e;
+}
+
+#info{
+  max-width:980px;
+  margin: 0 auto;
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 16px 30px;
+}
+
+/* It was a pain to find this color similar to the one in the example */
+
+#scoreboard{
+  /* position:absolute; */
+  /* top:16px; */
+  left:40px;
+  background-color: #834bc2;
+  color: white;
+}
+
+#timer{
+  /* position:absolute; */
+  /* top:0; */
+  right:40px;
+}
+
+#intro{
+  text-align:center;
+}
+
+button{
+  background-color:#41275e;
+  color:white;
+  border: none;
+  padding:5px;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+#intro button:hover{
+  background-color: #613a8d;
+}
+
+#quiz #title{
+  font-weight:700;
+}
+
+#quiz button{
+  background-color:#41275e;
+  border-radius:5px;
+  color:white;
+  margin: 3px 0;
+  padding: 5px 5px ;
+  cursor:pointer;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+#quiz button:hover{
+  background-color: #613a8d;
+}
+
+#scoreIndicator, #errorIndicator{
+  border-top: 1px solid #999;
+  color: #41275e;
+  font-size: 1.3em;
+  margin: 0;
+  font-style: italic;
+  font-weight:700;
+  margin: 10px auto;
+}
+
+#scoreIndicator p, #errorIndicator p{
+margin:0;
+margin-top:10px;
+}
+
+#records input, #records button{
+margin-top:5px;
+}
+
+.invisible{
+  display:none;
+}
+
+.invisible{
+  visibility:hidden;
+}
+
+.disable{
+pointer-events:none;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #positionWrapper{
+    min-height: calc(100% - 82px)
+  }
+
+  #finish #records{
+    display:flex;
+    align-items: center;
+  }
+
+  #finish #records input, #finish #records button{
+    margin-left:10px;
+  }
+
+  #info{
+    flex-direction:row;
+  }
+
+  #quiz{
+    min-width:420px;
+  }
+
+  #quiz ol{
+    min-width:100%;
+  }
+
+}
